@@ -16,9 +16,6 @@ The experimental results demonstrate that our method performs favorably against 
 denoising methods._
 ## Highlights <br>
  
-## Resources <br>
-* [Pre-trained weighted](https://www.google.com.tw/) <br>
-
 ## Environment <br>
 *  Platforms: Windows 10  / cuda 11.0 <br>
 *  python: 3.8.0 / pytorch: 1.7.0 <br>
@@ -35,8 +32,6 @@ To install the engine API, You must call this install command at the MATLAB comm
 (you might need administrator privileges to execute these commands) <br>
 
 <h3> 2. Testing </h3>
-
-* Download our pretrained model from ~~ and move to /checkpoint <br>
 
 * Evaluate the model performance by <br> 
 `python main.py --input=dataset/test_set --output=dataset/test_set --pretrain=checkpoint/AOAF_model.pth`
