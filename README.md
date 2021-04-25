@@ -32,12 +32,13 @@ To install the engine API, You must call this install command at the MATLAB comm
 "cd (fullfile(matlabroot,'extern','engines','python'))"
 "system('python setup.py install')"
 ```
+(you might need administrator privileges to execute these commands) <br>
 
 <h3> 2. Testing </h3>
 
 * Download our pretrained model from ~~ and move to /checkpoint <br>
 
 * Evaluate the model performance by <br> 
-`python main.py --input=dataset/test_set --output=dataset/test_set --pretrain=modules/AOAF_model.pth`
+`python main.py --input=dataset/test_set --output=dataset/test_set --pretrain=checkpoint/AOAF_model.pth`
 
 ## Citation <br>
