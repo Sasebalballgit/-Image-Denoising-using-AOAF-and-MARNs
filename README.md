@@ -25,3 +25,10 @@ denoising methods._
 *  matlab: R2020a <br>
 *  **Additional Requirements:** MATLAB Engine <br>
 ## Quick Start <br>
+<h3> 1. Install MATLAB Engine API for Python </h3>
+
+To install the engine API, You must call this install command at the MATLAB command prompt <br>
+```
+"cd (fullfile(matlabroot,'extern','engines','python'))"
+"system('python setup.py install')"
+```
