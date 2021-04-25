@@ -17,10 +17,11 @@ denoising methods._
 ## Highlights <br>
  
 ## Resources <br>
-* [paper](https://www.google.com.tw/)
-* [Pre-trained weighted](https://www.google.com.tw/)
+* [Pre-trained weighted](https://www.google.com.tw/) <br>
+
 ## Environment <br>
-*  Platforms: Windows 10 / cuda8.0 <br>
-*  python: 3.7.6 / pytorch: 1.5 <br>
+*  Platforms: Windows 10 <br>
+*  python: 3.8.0 / pytorch: 1.7.0 / cuda 11.0 <br>
+*  matlab: R2020a <br>
 
 ## Testing <br>
