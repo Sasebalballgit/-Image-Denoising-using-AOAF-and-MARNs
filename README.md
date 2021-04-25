@@ -20,8 +20,8 @@ denoising methods._
 * [Pre-trained weighted](https://www.google.com.tw/) <br>
 
 ## Environment <br>
-*  Platforms: Windows 10 <br>
-*  python: 3.8.0 / pytorch: 1.7.0 / cuda 11.0 <br>
+*  Platforms: Windows 10  / cuda 11.0 <br>
+*  python: 3.8.0 / pytorch: 1.7.0 <br>
 *  matlab: R2020a <br>
-
-## Testing <br>
+*  **Additional Requirements:** MATLAB Engine <br>
+## Quick Start <br>
