@@ -17,7 +17,7 @@ function I_aoaf = AOAF( I  )
         [rows, cols] = size( padimg );
      
        
-       % C = padarray( B , [ L L ] , 'symmetric', 'both' ) ; % B<-C
+    
         C = B ;
         T = B.*padarray( I , [ L L ] , 'symmetric', 'both' ); % B\otimes I
        
