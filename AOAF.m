@@ -1,12 +1,12 @@
 function I_aoaf = AOAF( I  )
 
 %         tic;
-        I = double( I * 255 );
+        I = double( I * 1 );
        
         [ M, N ] = size( I ) ;
 
         B = zeros( M , N );
-        B( (I > 0 ) & ( I < 255 )) = 1;
+        B( (I > 0 ) & ( I < 1 )) = 1;
         
         L = 19;
 
@@ -37,13 +37,13 @@ function I_aoaf = AOAF( I  )
                             end
                         end
                        
-                        good = find((y>0) & (y<255)); 
+                        good = find((y>0) & (y<1)); 
                         [~,c] = size(good);
                      
                         if ( c >= 1 ) 
                             for m = low : 1 : high
                                 for n = low : 1 : high
-                                    if( padimg( j + m , k + n ) == 0 || padimg( j + m , k + n ) == 255 ) 
+                                    if( padimg( j + m , k + n ) == 0 || padimg( j + m , k + n ) == 1 ) 
                                         T( j + m , k + n ) = T( j + m , k + n ) + mean( y(good ) )  ;     %replaced by weighted of good pixels
                                         C(j + m , k + n ) = C( j + m , k + n ) + 1 ; 
                                     end
