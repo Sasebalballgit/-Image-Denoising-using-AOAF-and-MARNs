@@ -23,7 +23,8 @@ Examples of denoising results using different methods. (a) Original Image. (b) I
 *  matlab: R2020a <br>
 *  **Additional Requirements:** MATLAB Engine <br>
 ## Quick Start <br>
-<h3> 1. Install MATLAB Engine API for Python </h3>
+<h3> 1. Install MATLAB Engine API for Python (for OAF_Cocat version)</h3>
+
 
 To install the engine API, You must call this install command at the MATLAB command prompt <br>
 ```
@@ -34,7 +35,14 @@ To install the engine API, You must call this install command at the MATLAB comm
 
 <h3> 2. Testing </h3>
 
-* Evaluate the model performance by <br> 
-`python main.py --input=dataset/test_set --output=dataset/test_set --pretrain=checkpoint/AOAF_model.pth`
+  **OAF_Single**
+* If you want to reproduce the experimental results according to the paper, evaluate the model performance by <br>
+  * `Execute AOAF_single.m` <br>
+  * `python main_single.py --input=dataset/test_set --output=dataset/test_set --pretrain=checkpoint/AOAF_model.pth` <br>
+  
+ **OAF_Cocat**
+ 
+* We also release the concatenation version, a slight but ignorable difference to the single version, evaluate the model performance by <br>
+  * `python main.py --input=dataset/test_set --output=dataset/test_set --pretrain=checkpoint/AOAF_model.pth` <br> <br>
 
 ## Citation <br>
