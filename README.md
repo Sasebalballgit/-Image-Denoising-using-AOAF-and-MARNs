@@ -29,23 +29,21 @@ Examples of denoising results using different methods. (a) Original Image. (b) I
 <h3> 1. Install MATLAB Engine API for Python (for OAF_Concat version)</h3>
 
 
-To install the engine API, You must call this install command at the MATLAB command prompt <br>
-```
+To install the engine, You must run the following commands via the MATLAB command prompt <br>
+
 "cd (fullfile(matlabroot,'extern','engines','python'))"
 "system('python setup.py install')"
-```
-(you might need administrator privileges to execute these commands) <br>
+
+(you may need administrator privileges to execute these commands) <br>
 
 <h3> 2. Testing </h3>
 
-  **OAF_Single**
-* If you want to reproduce the experimental results according to the paper, evaluate the model performance by <br>
+  *AOAF_test1*
+* To reproduce the experimental results reported in the paper, please run the following script <br>
   * `Execute AOAF_single.m` <br>
   * `python main_single.py --input=dataset/test_set --output=dataset/test_set --pretrain=checkpoint/AOAF_model.pth` <br>
   
- **OAF_Concat**
+ *AOAF_test2*
  
-* We also release the concatenation version, a slight but ignorable difference to the single version, evaluate the model performance by <br>
+* We also release an integrated version, which bears an ignorable and invisiable difference against AOAF_test1. Plesae run <br>
   * `python main.py --input=dataset/test_set --output=dataset/test_set --pretrain=checkpoint/AOAF_model.pth` <br> <br>
-
-## Citation <br>
