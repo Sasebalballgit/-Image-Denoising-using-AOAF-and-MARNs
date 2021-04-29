@@ -1,4 +1,4 @@
-# Image-Denoising-using-Adaptive-and-Overlapped-Average-Filtering-and-Mixed-pooling-Attention-Refineme
+<h3> Image Denoising using Adaptive and Overlapped Average Filtering and Mixed-pooling Attention Refinement Networks <h3> <br>
 **Ming-Hao Lin, Zhi-Xiang Hou, Kai-Han Cheng, Chin-Hsien Wu, and Yan-Tsung Peng** <br>
 <br>
 **Abstract:** <br>
