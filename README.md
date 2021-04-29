@@ -3,7 +3,7 @@
 **Ming-Hao Lin, Zhi-Xiang Hou, Kai-Han Cheng, Chin-Hsien Wu, and Yan-Tsung Peng** <br>
 <br>
 ## **Abstract:** <br>
-<br>
+
 _Cameras have been essential parts of portable devices, such as smartphones and tablets.
 Most people have a smartphone and can take pictures anywhere, anytime to record their lives.
 However, these pictures captured by cameras may suffer from noise contamination, causing issues for
@@ -15,9 +15,11 @@ denoised result, where noisy pixels are removed and recovered. Next, MARNs take 
 result as the input and output a refined image where details and edges are better reconstructed.
 The experimental results demonstrate that our method performs favorably against state-of-the-art
 denoising methods._
+
 ## Highlights <br>
 ![image](https://github.com/Sasebalballgit/Image-Denoising-using-Adaptive-and-Overlapped-Average-Filtering-and-Mixed-pooling-Attention-Refineme/blob/main/Example/r_gray_com.png)
 Examples of denoising results using different methods. (a) Original Image. (b) Images with50% ,60%,70%,80%, 90% noise added. Denoising results using (c) MDBUTMF, (d) DAMF,  (e) FASMF, and (f) MMAP, (g) the proposed (AOAF+MARNs).
+
 ## Environment <br>
 *  Platforms: Windows 10  / cuda 11.0 <br>
 *  python: 3.8.0 / pytorch: 1.7.0 <br>
