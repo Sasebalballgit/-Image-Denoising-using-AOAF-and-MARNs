@@ -31,8 +31,10 @@ Examples of denoising results using different methods. (a) Original Image. (b) I
 
 To install the engine, You must run the following commands via the MATLAB command prompt <br>
 
+```
 "cd (fullfile(matlabroot,'extern','engines','python'))"
 "system('python setup.py install')"
+```
 
 (you may need administrator privileges to execute these commands) <br>
 
