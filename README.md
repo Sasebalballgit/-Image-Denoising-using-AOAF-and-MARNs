@@ -1,7 +1,8 @@
-<h3> Image Denoising using Adaptive and Overlapped Average Filtering and Mixed-pooling Attention Refinement Networks <h3> <br>
+# Image Denoising using Adaptive and Overlapped Average Filtering and Mixed-pooling Attention Refinement Networks  
+
 **Ming-Hao Lin, Zhi-Xiang Hou, Kai-Han Cheng, Chin-Hsien Wu, and Yan-Tsung Peng** <br>
 <br>
-**Abstract:** <br>
+## **Abstract:** <br>
 <br>
 _Cameras have been essential parts of portable devices, such as smartphones and tablets.
 Most people have a smartphone and can take pictures anywhere, anytime to record their lives.
