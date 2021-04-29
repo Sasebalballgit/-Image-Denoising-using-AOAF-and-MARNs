@@ -47,5 +47,5 @@ To install the engine, You must run the following commands via the MATLAB comman
   
  *AOAF_test2*
  
-* We also release an integrated version, which bears an ignorable and invisiable difference against AOAF_test1. Plesae run <br>
+* We also release an integrated version, which bears an ignorable and invisiable difference against AOAF_test1. Please run <br>
   * `python main.py --input=dataset/test_set --output=dataset/test_set --pretrain=checkpoint/AOAF_model.pth` <br> <br>
