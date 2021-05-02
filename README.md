@@ -26,7 +26,7 @@ Examples of denoising results using different methods. (a) Original Image. (b) I
 *  matlab: R2020a <br>
 *  **Additional Requirements:** MATLAB Engine <br>
 ## Quick Start <br>
-<h3> 1. Install MATLAB Engine API for Python (for AOAF_test1)</h3>
+<h3> 1. Install MATLAB Engine API for Python (if using AOAF_test1, skip)</h3>
 
 
 To install the engine, You must run the following commands via the MATLAB command prompt <br>
